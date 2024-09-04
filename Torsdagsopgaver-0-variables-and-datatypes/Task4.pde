@@ -30,19 +30,15 @@ void setup(){           //  4a   I have created a setup method
   println("Dividing the number 2 by 1 equals: "+div);  //  4e  printing  the new value of div 1
   println("The first thing ever my program said was: "+message);    // 4e printing a message from my program
   
-  println(a=+1);    //4f  I have added 1 to the value of a 
-  println(b=+1);    //4f  I have added 1 to the value of b
-  println(sum=+1);  //4f  I have added 1 to the value of sum
-  println(div=+1);  //4f  I have added 1 to the value of div 
+  println(a+1);    //4f  I have added 1 to the value of a 
+  println(b+1);    //4f  I have added 1 to the value of b
+  println(sum+1);  //4f  I have added 1 to the value of sum
+  println(div+1);  //4f  I have added 1 to the value of div 
   
-  a  =  a  +  3;
-  println(a);    //4g Now I have added 3 to the value of a 
-  a  =  b  +  3;
-  println(b);    //4g Now I have added 3 to the value of b
-  sum  =  sum  +   3;
-  println(sum);  //4g Now I have added 3 to the value of sum
-  div  =  div  +  3;
-  println(div);  //4g Now I have added 3 to the value  of div 
+  println(a+=3);    //4g Now I have added 3 to the value of a 
+  println(b+=3);    //4g Now I have added 3 to the value of b
+  println(sum+=3);  //4g Now I have added 3 to the value of sum
+  println(div+=3);  //4g Now I have added 3 to the value  of div 
   
   println(a--);    //4h  Now I have subtracted 1 from the value of a
   println(b--);    //4h  Now I have subtracted 1 from the value of b
